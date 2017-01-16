@@ -16,9 +16,11 @@ body{
 header{
   background: #35424a;
   color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
+  padding-top: 20px;
+  min-height: 60px;
   border-bottom: #e8491d 3px solid;
+  width: 100%;
+  position: fixed;
 }
 
 header a{
@@ -50,4 +52,79 @@ header #logo h1{
 header nav{
   float: right;
   margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+}
+
+
+/*Showcase */
+
+#showcase{
+  min-height: 350px;
+  background: url('https://cdn.pixabay.com/photo/2016/12/15/20/21/background-1909992_960_720.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h1{
+  margin-top: 150px;
+  margin-bottom: 10px;
+  font-size: 90px;
+  text-shadow: 5px 5px 5px #000000;
+  text-transform: uppercase;
+}
+
+/* Newsletter */
+
+#newsletter{
+  padding: 0px;
+  background: #35424a;
+  border-top: #e8491d 3px solid;
+  border-bottom: #e8491d 3px solid;
+}
+
+#newsletter h1{
+  float: left;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 3px;
+  margin: 1px;
+}
+
+#newsletter form{
+  float: right;
+
+}
+
+#newsletter input[type="email"]{
+  margin-top: 4px;
+  height: 25px;
+  width: 250px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+.submit-btn{
+  height: 30px;
+  background-color: #e8491d;
+  border: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }
